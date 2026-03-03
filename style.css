@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'playfair display', serif;
+
+
+}
+
+body {
+    background: linear-gradient(rgb(0, 0, 0), rgb(110, 5, 22));
+    min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-attachment: fixed;
+
+}
+
+.seg1 {
+    position: relative;
+    z-index: 1;
+
+}
+
+
+
+.seg1-bg {
+    background-image: url(images/bourgeon.logo.png);
+    width: 98%;
+    height: 300px;
+    border: none;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+    left: 13px;
+    background-position: 50% 34%;
+    box-shadow: 0px 10px 20px black;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+}
+
+.p-text {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    animation: coolanimation both;
+    animation-timeline: view(70% 5%);
+    color: #d4af37;
+    text-shadow: 0 0 10px #d4af37;
+
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 632px;
+    z-index: 1;
+    top: -173px;
+
+}
+
+.sides {
+    left: 478px;
+    position: relative;
+    top: -154px;
+    width: 200px;
+    height: 200px;
+}
+
+.event-head {
+    color: white;
+    font-size: 200px;
+}
+
+.segment2 {
+    position: relative;
+    top: 100px;
+    left: 43px;
+}
+
+.natty {
+    font-size: 300px;
+    animation: coolanimation both;
+    animation-timeline: view(70% 10%);
+    color: transparent;
+    font-weight: 600;
+    background: linear-gradient(#ddaf19 ,  rgb(110, 5, 22) );
+    background-clip: text;
+}
+
+.sem {
+    top: -110px;
+    position: relative;
+    animation: coolanimation both;
+    animation-timeline: view(70% 10%);
+    font-size: 200px;
+    color: transparent;
+    font-weight: 600;
+     background: linear-gradient(#ddaf19 ,  rgb(175, 7, 35) );
+    background-clip: text;
+}
+
+.seg1-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.sem-topic {
+    animation: coolanimation both;
+    animation-timeline: view(70% 5%);
+    color: white;
+    top: -100px;
+    position: relative;
+    font-size: 65px;
+    /* font-style: italic; */
+    font-weight: 700;
+    color: #d4af37;
+    padding-bottom: 200px;
+    text-shadow: 0 0 10px black;
+}
+
+
+
+.segment3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 150px;
+    margin-left: 100px;
+    padding-bottom: 250px;
+}
+
+.cg {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    animation: coolanimation both;
+    animation-timeline: view(70% 5%);
+
+}
+
+.cg img {
+    width: 245px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.cg p {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.cg h2 {
+    color: #d4af37;
+    font-size: 40px;
+
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.seg3-text {
+    text-align: center;
+    margin-bottom: 56px;
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    animation: coolanimation both;
+    animation-timeline: view(70% 5%);
+    color: #d4af37;
+    text-shadow: 0 0 10px #d4af37;
+}
+
+.details{
+    padding-top: 100px;
+    padding-bottom: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.doe{
+    font-size: 70px;
+    color: white;
+    animation: autoblur  linear both;
+    animation-timeline: view();
+    margin-left: -500px;
+}
+
+.location{
+    font-size: 50px;
+    color: white;
+    animation: autoblur linear both;
+    animation-timeline: view();
+    color: #d4af37;
+}
+
+.from{
+    font-size: 70px;
+    color: white;
+    animation: autoblur linear both;
+    animation-timeline: view();
+    font-style: italic;
+
+}
+
+.timing{
+    font-size: 70px;
+    color: #d4af37;
+    animation: autoblur linear both;
+    animation-timeline: view();
+}
+
+.on{
+    font-size: 70px;
+    color: white;
+    animation: autoblur linear both;
+    animation-timeline: view();
+    font-style: italic;
+}
+
+.day{
+    font-size: 70px;
+    color: white;
+    animation: autoblur linear both;
+    animation-timeline: view();
+}
+
+.seg4-text{
+     text-align: center;
+    margin-bottom: 56px;
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    animation: coolanimation both;
+    animation-timeline: view(70% 5%);
+    color: #d4af37;
+    text-shadow: 0 0 10px #d4af37;
+}
+
+.registration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 50px;
+    border: 1px solid white;
+    width: 550px;
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.reg{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #d4af37;
+    border: none;
+    border-radius: 30px;
+}
+ .ft{
+    color: white;
+    font-size: 70px;
+ }
+
+ .hy{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+   
+   
+ }
+
+ .logo-after-ch {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 632px;
+    z-index: 1;
+    top: -173px;
+
+}
+
+
+
+@keyframes coolanimation {
+    from {
+        opacity: 0;
+        transform: translateY(150px) scale(0.3);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+
+@keyframes autoblur{
+    0%{
+        filter: blur(30px);
+    }
+     45%,55%{
+        filter: blur(0px);
+     }
+
+    100%{
+        filter: blur(30px);
+    }
+}
+
+
+/* ===================== TABLET ===================== */
+
+@media (max-width:1024px){
+
+.segment2{
+left:0;
+padding:20px;
+}
+
+.natty{
+font-size:200px;
+}
+
+.sem{
+font-size:140px;
+top:-50px;
+}
+
+.sem-topic{
+font-size:40px;
+top:-40px;
+}
+
+.cg p{
+font-size:35px;
+}
+
+.cg h2{
+font-size:30px;
+}
+
+.segment3{
+margin-left:50px;
+}
+
+.logo{
+left:50%;
+transform:translateX(-50%);
+}
+
+}
+
+
+/* ===================== SMALL TABLET ===================== */
+
+@media (max-width:768px){
+
+.segment2{
+left:0;
+padding:20px;
+text-align:center;
+}
+
+.natty{
+font-size:130px;
+}
+
+.sem{
+font-size:90px;
+top:-20px;
+}
+
+.sem-topic{
+font-size:28px;
+top:0;
+padding-bottom:100px;
+}
+
+.segment3{
+margin-left:0;
+padding:20px;
+align-items:center;
+gap:80px;
+}
+
+.cg{
+flex-direction:column;
+align-items:center;
+text-align:center;
+}
+
+.cg img{
+width:200px;
+height:auto;
+}
+
+.cg h2{
+font-size:24px;
+}
+
+.cg p{
+font-size:22px;
+}
+
+.seg3-text{
+font-size:45px;
+}
+
+.details{
+gap:30px;
+}
+
+.doe,
+.from,
+.on,
+.day,
+.timing{
+font-size:40px;
+margin-left:0;
+text-align:center;
+}
+
+.location{
+font-size:30px;
+text-align:center;
+}
+
+.registration{
+width:90%;
+}
+
+.ft{
+font-size:45px;
+}
+
+.logo{
+left:50%;
+transform:translateX(-50%);
+top:-140px;
+}
+
+.sides{
+display:none;
+}
+
+}
+
+
+/* ===================== MOBILE ===================== */
+
+@media (max-width:600px){
+
+/* remove animation for PRESENTS only on phone */
+
+.p-text{
+animation:none;
+}
+
+/* move PRESENTS higher */
+
+.text1{
+top:180px;
+}
+
+/* seminar heading sizes */
+
+.natty{
+font-size:70px;
+}
+
+.sem{
+font-size:45px;
+top:0;
+}
+
+.sem-topic{
+font-size:20px;
+top:0;
+padding-bottom:80px;
+}
+
+/* chief guest section */
+
+.segment3{
+margin-left:0;
+align-items:center;
+gap:60px;
+}
+
+.cg{
+flex-direction:column;
+align-items:center;
+text-align:center;
+gap:20px;
+}
+
+.cg img{
+width:170px;
+height:auto;
+}
+
+.cg h2{
+font-size:20px;
+}
+
+.cg p{
+font-size:18px;
+}
+
+/* FIX WING LOGO COLLISION */
+
+.logo{
+top:-135px;
+}
+
+.logo-after-ch{
+        position: relative;
+        top: -7px;
+        left: 105px;
+        padding: 50px;
+}
+
+/* hide side decoration */
+
+.sides{
+display:none;
+}
+
+/* event details */
+
+.seg4-text{
+font-size:30px;
+}
+
+.doe,
+.from,
+.on,
+.day,
+.timing{
+font-size:25px;
+margin-left:0;
+text-align:center;
+}
+
+.location{
+font-size:20px;
+text-align:center;
+}
+
+/* registration box */
+
+.registration{
+width:65%;
+}
+
+.ft{
+font-size:30px;
+}
+
+}
